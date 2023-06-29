@@ -1,0 +1,35 @@
+[
+    {
+      "name": "Ahri",
+      "role": "Mage",
+      "lore": "Ahri is a nine-tailed fox who possesses the power to absorb the life essence of her enemies.",
+      "abilities": [
+        "Orb of Deception",
+        "Fox-Fire",
+        "Charm",
+        "Spirit Rush"
+      ]
+    },
+    {
+      "name": "Ezreal",
+      "role": "Marksman",
+      "lore": "Ezreal is a charismatic explorer with the ability to shoot powerful energy bolts.",
+      "abilities": [
+        "Mystic Shot",
+        "Essence Flux",
+        "Arcane Shift",
+        "Trueshot Barrage"
+      ]
+    },
+    {
+      "name": "Garen",
+      "role": "Tank",
+      "lore": "Garen is a noble warrior known for his unmatched strength and dedication to justice.",
+      "abilities": [
+        "Decisive Strike",
+        "Courage",
+        "Judgment",
+        "Demacian Justice"
+      ]
+    }
+  ]
