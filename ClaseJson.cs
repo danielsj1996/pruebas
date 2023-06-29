@@ -14,7 +14,9 @@ public class Personajes
         public string? lore { get; set; }
 
         [JsonPropertyName("abilities")]
+    #pragma warning disable
         public List<string> abilities { get; set; }
+    #pragma warning restore
     }
 
 
@@ -38,15 +40,4 @@ public class Personajes
             return documento;
         }
 
-        public void GuardarArchivoTexto(string nombreArchivo, string datos)
-        {
-             using(var archivo = new FileStream(nombreArchivo, FileMode.Create))
-            {
-                using (var strWriter = new StreamWriter(archivo))
-                {
-                    strWriter.WriteLine("{0}", datos);
-                    strWriter.Close();
-                }
-            }
-        }
     }

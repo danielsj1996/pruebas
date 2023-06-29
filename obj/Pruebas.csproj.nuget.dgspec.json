@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\pruebas-1\\Pruebas.csproj": {}
+    "C:\\pruebas\\Pruebas.csproj": {}
   },
   "projects": {
-    "C:\\pruebas-1\\Pruebas.csproj": {
+    "C:\\pruebas\\Pruebas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\pruebas-1\\Pruebas.csproj",
+        "projectUniqueName": "C:\\pruebas\\Pruebas.csproj",
         "projectName": "Pruebas",
-        "projectPath": "C:\\pruebas-1\\Pruebas.csproj",
-        "packagesPath": "C:\\Users\\Daniels\\.nuget\\packages\\",
-        "outputPath": "C:\\pruebas-1\\obj\\",
+        "projectPath": "C:\\pruebas\\Pruebas.csproj",
+        "packagesPath": "C:\\Users\\Mamá\\.nuget\\packages\\",
+        "outputPath": "C:\\pruebas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniels\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Mamá\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,25 @@
+Personajes
+Nombre: Ahri
+Rol: Mage
+Lore: Ahri is a nine-tailed fox who possesses the power to absorb the life essence of her enemies.
+Habilidades:
+Hab1: Orb of Deception
+Hab2: Fox-Fire
+Hab3: Charm
+Hab4: Spirit Rush
+Nombre: Ezreal
+Rol: Marksman
+Lore: Ezreal is a charismatic explorer with the ability to shoot powerful energy bolts.
+Habilidades:
+Hab1: Mystic Shot
+Hab2: Essence Flux
+Hab3: Arcane Shift
+Hab4: Trueshot Barrage
+Nombre: Garen
+Rol: Tank
+Lore: Garen is a noble warrior known for his unmatched strength and dedication to justice.
+Habilidades:
+Hab1: Decisive Strike
+Hab2: Courage
+Hab3: Judgment
+Hab4: Demacian Justice
