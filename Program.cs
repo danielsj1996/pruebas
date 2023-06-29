@@ -6,37 +6,31 @@ Console.WriteLine("Hello, World!");
 
 
 
-Personajes personajes1 = new Personajes();
-personajes1.name ="";
-personajes1.role = "";
-personajes1.lore = "";
-personajes1.abilities = new List<string>();
+string fileName = "Personajes.json";
+var miHelperdeArchivos = new HelperDeJson();
+//Abro el Archivo
+Console.WriteLine("--Abriendo--");
+string jsonDocument = miHelperdeArchivos.AbrirArchivoTexto(fileName);
+Console.WriteLine("--Deserializando--");
+var personajesrecuperados = JsonSerializer.Deserialize<List<Personajes>>(jsonDocument);
+Console.WriteLine("--Mostrando datos recuperardos--");
+ImprimirAlumnos(personajesrecuperados);
 
- try
-            {
 
-                    using (Stream strReader = response.GetResponseStream())
-                    {
-                        if (strReader == null) return;
-                        using (StreamReader objReader = new StreamReader(strReader))
-                        {
-                            string Lineas = objReader.ReadToEnd();
-                            Personajes personajes = JsonSerializer.Deserialize<Personajes>(Lineas);
+void ImprimirAlumnos(List<Personajes> personajes)
+{
+    foreach (var item in personajes)
+    {
 
-                                
-                                Console.WriteLine("Nombre: " + personajes.name );
-                                Console.WriteLine("Rol: " + personajes.role );
-                                Console.WriteLine("Lore: " + personajes.lore);
-                                Console.WriteLine("Lore: " + personajes.lore);
-                                Console.WriteLine("HAbilidad1: " + personajes.abilities);
-                                
+        Console.WriteLine("\n");
+        Console.WriteLine("\nNombre: " + item.name);
+        Console.WriteLine("\nRol: " + item.role);
+        Console.WriteLine("\nLore: " + item.lore);
+        Console.WriteLine("\nHabilidad1: " + item.abilities[0]);
+        Console.WriteLine("\nHabilidad2: " + item.abilities[1]);
+        Console.WriteLine("\nHabilidad3: " + item.abilities[2]);
+        Console.WriteLine("\nHabilidad4: " + item.abilities[3]);
+        Console.WriteLine("\n");
+    }
 
-                        }
-                    }
-                }
-            }
-            catch (WebException ex)
-            {
-                Console.WriteLine("Problemas de acceso a la API");
-            }
-        
+}
