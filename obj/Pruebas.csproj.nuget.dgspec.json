@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pruebas\\Pruebas.csproj": {}
+    "C:\\pruebas-1\\Pruebas.csproj": {}
   },
   "projects": {
-    "C:\\Pruebas\\Pruebas.csproj": {
+    "C:\\pruebas-1\\Pruebas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pruebas\\Pruebas.csproj",
+        "projectUniqueName": "C:\\pruebas-1\\Pruebas.csproj",
         "projectName": "Pruebas",
-        "projectPath": "C:\\Pruebas\\Pruebas.csproj",
+        "projectPath": "C:\\pruebas-1\\Pruebas.csproj",
         "packagesPath": "C:\\Users\\Daniels\\.nuget\\packages\\",
-        "outputPath": "C:\\Pruebas\\obj\\",
+        "outputPath": "C:\\pruebas-1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Daniels\\AppData\\Roaming\\NuGet\\NuGet.Config"
